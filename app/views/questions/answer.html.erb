@@ -2,10 +2,19 @@
 <!-- <p>Find me in app/views/questions/answer.html.erb</p> -->
 
 <h3>Your question</h2>
-<p>Your question is : <%= @question %></p>
-<p><em>YOU<em></em><p>
+  <div class="container">
+    <div class="row" class="question">
+      <p>Your question is : <%= @question %></p>
+      <p><em>You<em></em><p>
+    </div>
 
-<h3>Coach answer</h3>
-<p>Coach answer is : <%= @answer %></p>
+
+  <h3>Coach answer</h3>
+   <div class="row" class="answer">
+    <p>Coach answer is : <%= @answer %></p>
+    <p><em>The Coach<em></em><p>
+  </div>
+
+</div>
 
 
